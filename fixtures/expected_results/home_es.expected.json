@@ -1,0 +1,46 @@
+{
+  "caso": "home.en.json → home.es.json",
+  "estado_general": "FAIL",
+  "resumen": {
+    "errores": 5,
+    "advertencias": 0,
+    "informacion": 2
+  },
+  "hallazgos": [
+    {
+      "severidad": "error",
+      "categoria": "clave_faltante",
+      "ruta_json": "page.description"
+    },
+    {
+      "severidad": "error",
+      "categoria": "clave_inesperada",
+      "ruta_json": "page.promoBadge"
+    },
+    {
+      "severidad": "error",
+      "categoria": "tipo_distinto",
+      "ruta_json": "page.itemCount"
+    },
+    {
+      "severidad": "error",
+      "categoria": "placeholder_alterado",
+      "ruta_json": "page.banner.heading"
+    },
+    {
+      "severidad": "error",
+      "categoria": "salto_linea_tipo_distinto",
+      "ruta_json": "page.banner.legal"
+    },
+    {
+      "severidad": "info",
+      "categoria": "metadato_diferencia_permitida",
+      "ruta_json": "_gpiInternalData-rootPath"
+    },
+    {
+      "severidad": "info",
+      "categoria": "diferencia_legitima",
+      "ruta_json": "$"
+    }
+  ]
+}

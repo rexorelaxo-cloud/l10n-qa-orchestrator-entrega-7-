@@ -1,0 +1,21 @@
+{
+  "caso": "clean.en.json → clean.es.json",
+  "estado_general": "PASS",
+  "resumen": {
+    "errores": 0,
+    "advertencias": 0,
+    "informacion": 2
+  },
+  "hallazgos": [
+    {
+      "severidad": "info",
+      "categoria": "metadato_diferencia_permitida",
+      "ruta_json": "_gpiInternalData-rootPath"
+    },
+    {
+      "severidad": "info",
+      "categoria": "diferencia_legitima",
+      "ruta_json": "$"
+    }
+  ]
+}

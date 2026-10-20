@@ -1,0 +1,15 @@
+{
+  "_gpiInternalData-toolName": "Sitecore Content Editor",
+  "_gpiInternalData-rootPath": "/sitecore/content/acme/en/contact",
+  "contact": {
+    "title": "Contact us",
+    "brand": "Acme",
+    "message": "Hi {name},\nthanks for writing.",
+    "phone": "+1 555 0100",
+    "channels": [
+      "Email",
+      "Phone"
+    ],
+    "active": true
+  }
+}

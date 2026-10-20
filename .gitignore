@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Credenciales y configuración local
+.env
+
+# Resultados generados por las ejecuciones
+salida/
+
+# Sistema operativo / editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Salidas del Módulo 7
+resultados/
+*.rdb

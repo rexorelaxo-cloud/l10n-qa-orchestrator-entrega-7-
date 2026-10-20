@@ -1,0 +1,31 @@
+{
+  "_gpiInternalData-toolName": "Sitecore Content Editor",
+  "_gpiInternalData-rootPath": "/sitecore/content/acme/en/home",
+  "_gpiInternalData-itemId": "110d559f-dea5-42ea-9c1c-8a5df7e70ef9",
+  "page": {
+    "title": "Welcome to Acme",
+    "brand": "Acme",
+    "description": "Discover our products and services.",
+    "banner": {
+      "heading": "Hello, {userName}!",
+      "cta": "Shop now",
+      "legal": "Offer valid until {{endDate}}.\nTerms apply."
+    },
+    "itemCount": 3,
+    "isPublished": true,
+    "links": [
+      {
+        "label": "Products",
+        "url": "/products"
+      },
+      {
+        "label": "Support",
+        "url": "/support"
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "© 2026 Acme Inc.",
+    "help": "Need help?\nCall us at %s."
+  }
+}

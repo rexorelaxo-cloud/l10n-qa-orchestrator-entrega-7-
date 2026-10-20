@@ -1,0 +1,31 @@
+{
+  "_gpiInternalData-toolName": "محرر محتوى Sitecore",
+  "_gpiInternalData-rootPath": "/sitecore/content/acme/ar/home",
+  "_gpiInternalData-itemId": "110d559f-dea5-42ea-9c1c-8a5df7e70ef0",
+  "page": {
+    "title": "مرحباً بكم في أكمي",
+    "brand": "Acme",
+    "description": "اكتشف منتجاتنا وخدماتنا.",
+    "banner": {
+      "heading": "مرحباً، {userName}!",
+      "cta": "تسوق الآن",
+      "legal": "العرض ساري حتى {{endDate}}.\nتطبق الشروط."
+    },
+    "itemCount": 3,
+    "isPublished": true,
+    "links": [
+      {
+        "label": "المنتجات",
+        "url": "/products"
+      },
+      {
+        "label": "",
+        "url": "/support"
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "© 2026 Acme Inc.",
+    "help": "هل تحتاج إلى مساعدة؟ اتصل بنا على %s."
+  }
+}

@@ -1,0 +1,33 @@
+---
+config:
+  flowchart:
+    curve: linear
+---
+graph TD;
+	__start__([<p>__start__</p>]):::first
+	supervisor(supervisor)
+	research(research)
+	analysis(analysis)
+	validation(validation)
+	llm_report(llm_report)
+	approval_gate(approval_gate)
+	execute_import(execute_import)
+	__end__([<p>__end__</p>]):::last
+	__start__ --> supervisor;
+	analysis -.-> supervisor;
+	analysis -.-> validation;
+	approval_gate -. &nbsp;END&nbsp; .-> __end__;
+	approval_gate -.-> execute_import;
+	llm_report --> approval_gate;
+	research -.-> supervisor;
+	research -.-> validation;
+	supervisor -. &nbsp;END&nbsp; .-> __end__;
+	supervisor -.-> analysis;
+	supervisor -.-> research;
+	supervisor -.-> validation;
+	validation -. &nbsp;END&nbsp; .-> llm_report;
+	validation -.-> supervisor;
+	execute_import --> __end__;
+	classDef default fill:#f2f0ff,line-height:1.2
+	classDef first fill-opacity:0
+	classDef last fill:#bfb6fc

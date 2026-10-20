@@ -1,0 +1,41 @@
+{
+  "caso": "home.en.json → home.ar.json",
+  "estado_general": "FAIL",
+  "resumen": {
+    "errores": 1,
+    "advertencias": 2,
+    "informacion": 3
+  },
+  "hallazgos": [
+    {
+      "severidad": "error",
+      "categoria": "metadato_distinto",
+      "ruta_json": "_gpiInternalData-itemId"
+    },
+    {
+      "severidad": "warning",
+      "categoria": "valor_vacio",
+      "ruta_json": "page.links[1].label"
+    },
+    {
+      "severidad": "warning",
+      "categoria": "salto_linea_cantidad_distinta",
+      "ruta_json": "footer.help"
+    },
+    {
+      "severidad": "info",
+      "categoria": "metadato_diferencia_permitida",
+      "ruta_json": "_gpiInternalData-toolName"
+    },
+    {
+      "severidad": "info",
+      "categoria": "metadato_diferencia_permitida",
+      "ruta_json": "_gpiInternalData-rootPath"
+    },
+    {
+      "severidad": "info",
+      "categoria": "diferencia_legitima",
+      "ruta_json": "$"
+    }
+  ]
+}

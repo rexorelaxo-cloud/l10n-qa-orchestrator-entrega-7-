@@ -1,0 +1,31 @@
+{
+  "_gpiInternalData-toolName": "Sitecore Content Editor",
+  "_gpiInternalData-rootPath": "/sitecore/content/acme/es/home",
+  "_gpiInternalData-itemId": "110d559f-dea5-42ea-9c1c-8a5df7e70ef9",
+  "page": {
+    "title": "Bienvenido a la tienda en línea de Acme",
+    "brand": "Acme",
+    "banner": {
+      "heading": "¡Hola, {nombreUsuario}!",
+      "cta": "Comprar ahora",
+      "legal": "Oferta válida hasta {{endDate}}.\\nAplican condiciones."
+    },
+    "itemCount": "3",
+    "isPublished": true,
+    "links": [
+      {
+        "label": "Productos",
+        "url": "/products"
+      },
+      {
+        "label": "Soporte",
+        "url": "/support"
+      }
+    ],
+    "promoBadge": "Nuevo"
+  },
+  "footer": {
+    "copyright": "© 2026 Acme Inc.",
+    "help": "¿Necesita ayuda?\nLlámenos al %s."
+  }
+}
